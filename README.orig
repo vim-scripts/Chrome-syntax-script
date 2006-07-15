@@ -1,0 +1,24 @@
+RemObjects Software Chrome Syntax Highlightning Script
+======================================================
+
+How to install: copy or move chrome.vim to your $VIMRUNTIME/syntax directory 
+  (maybe you will have to replace the foreslash with a backslash depending on
+  OS)
+
+How to use: open a source code file for Chrome (.pas) and execute (in VIM)
+        :set syntax=chrome
+  to make it be sourced.
+
+Please note that this script is definitely not complete. It can't be as I don't 
+know what Chrome is capable of. If you have any suggestions how to make it 
+better, please mail me at mailto:nullplanwichmann@web.de . If you are able to 
+write in german, please do so, because I know my mother tongue better than any 
+other language I learned.
+Please also note, that I spent one (in numbers: 1) evening on that file, and 
+I'm just a 16-year-old student, so don't be afraid to teach me a lesson on 
+writing syntax scripts.
+I wrote this stuff unix compatible for better enjoyment by unix users, and 
+windows users won't bother unziping a tarball instead of a zipfile... if they
+have the right unzipper. If they don't, IMHO they don't have the right to call
+themselves programmers. IMHO a coder has to be able to cope with tarballs (which 
+might be the least prob he ever has to solve). 
